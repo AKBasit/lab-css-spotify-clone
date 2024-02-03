@@ -1,8 +1,59 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #1a1a1a;
+}
+
+/* Header */
+header > div {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  width: 400px;
+}
+
+nav label,
+#hamburger {
+  display: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.spotify-logo {
+  width: 160px;
+  padding: 20px;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
